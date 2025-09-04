@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <title>Bankist | When Banking meets Minimalist</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.png"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">ویژگی‌ها</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">عملیات</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">نظرات کاربران</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >افتتاح حساب</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- عنوان اصلی -->
+      <div class="header__title">
+        <h1>
+          وقتی <span class="highlight">بانکداری</span> با <br /><span
+            class="highlight"
+            >مینیمالیسم</span
+          >
+          ترکیب می‌شود
+        </h1>
+        <h4>تجربه‌ای ساده‌تر از بانکداری برای زندگی ساده‌تر</h4>
+        <button class="btn--text btn--scroll-to">
+          بیشتر بدانید &DownArrow;
+        </button>
+        <img
+          src="img/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <!-- بخش ویژگی‌ها -->
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">ویژگی‌ها</h2>
+        <h3 class="section__header">
+          هر آنچه از یک بانک مدرن انتظار دارید و حتی بیشتر
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">بانک ۱۰۰٪ دیجیتال</h5>
+          <p>
+لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+          </p>
+        </div>
+
+        <div class="features__feature features__feature--row">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">رشد سرمایه‌ات را تماشا کن</h5>
+          <p>
+کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد.
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">کارت بانکی رایگان</h5>
+          <p>
+در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- بخش عملیات -->
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">عملیات</h2>
+        <h3 class="section__header">
+          همه‌چیز تا حد ممکن ساده؛ اما نه ساده‌لوحانه
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>۰۱</span> انتقال فوری
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>۰۲</span> وام فوری
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>۰۳</span> بستن حساب
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            پولت رو فوری منتقل کن! بدون کارمزد و دردسر
+          </h5>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            خانه بخر یا رویاهایت را با وام‌های فوری محقق کن
+          </h5>
+          <p>
+            کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه
+            و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان
+            رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد
+            کرد.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            دیگه نیازی به حساب نداری؟ مشکلی نیست! فوری ببندش
+          </h5>
+          <p>
+            در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه
+            راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی
+            دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا
+            مورد استفاده قرار گیرد.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- نظرات کاربران -->
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">هنوز مطمئن نیستی؟</h2>
+        <h3 class="section__header">
+          میلیون‌ها نفر قبلاً بانکیست را انتخاب کرده‌اند
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">بهترین تصمیم مالی زندگیم!</h5>
+            <blockquote class="testimonial__text">
+              پیر مردی هر روز تو محله می دید پسر کی با کفش های پاره و پای برهنه
+              با توپ پلاستیکی فوتبال بازی می کند، روزی رفت ی کتانی نو خرید و
+              اومد و به پسرک گفت بیا این کفشا رو بپوش…پسرک کفشا رو پوشید و
+              خوشحال رو به پیر مرد کرد و گفت: شما خدایید؟! پیر مرد لبش را گزید و
+              گفت نه! پسرک گفت پس دوست خدایی، چون من دیشب فقط به خدا گفتم كه کفش
+              ندارم…
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">عطا اسدزاده</h6>
+              <p class="testimonial__location">تبریز، ایران</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">آخرین قدم برای مینیمالیسم کامل</h5>
+            <blockquote class="testimonial__text">
+              وقتی ثروت‌ های بزرگ به دست برخی مردم می‌افتد در پرتو آن نیرومند
+              می‌شوند و در سایهٔ نیرومندی و ثروت خیال می‌ کنند که می‌توانند در
+              خارج از وطن خود زندگی نمایند و خوشبخت و سرافراز باشند ولی به زودی
+              می‌ فهمند که اشتباه کرده‌ اند و عظمت هر ملتی بر روی خرابه‌ های وطن
+              خودش می‌باشد و بس!
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">جوناس اشمیدمن</h6>
+              <p class="testimonial__location">آلوگاروه، پرتغال</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              بالاخره از بانک‌های قدیمی راحت شدم
+            </h5>
+            <blockquote class="testimonial__text">
+              این یک نوشته آزمایشی است که به طراحان و برنامه نویسان کمک میکند تا
+              این عزیزان با بهره گیری از این نوشته تستی و آزمایشی بتوانند نمونه
+              تکمیل شده از پروژه و طرح خودشان را به کارفرما نمایش دهند، استفاده
+              از این متن تستی می تواند سرعت پیشرفت پروژه را افزایش دهد.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">حسام نامور</h6>
+              <p class="testimonial__location">اهر، ایران</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <!-- عضویت -->
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          بهترین زمان برای عضویت، یک سال پیش بود. بهترین زمان بعدی، امروز است!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">
+        همین امروز حساب رایگان باز کن!
+      </button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">درباره ما</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">قیمت‌گذاری</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">شرایط استفاده</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">سیاست حفظ حریم</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">فرصت‌های شغلی</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">وبلاگ</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">تماس با ما</a>
+        </li>
+      </ul>
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        این وب‌سایت برای تمرین و یادگیری نحوه کار با DOM در جاوااسکریپت ساخته
+        شده است.
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        در کمتر از <span class="highlight">۵ دقیقه</span> حساب بانکی باز کن
+      </h2>
+      <form class="modal__form">
+        <label>نام</label>
+        <input type="text" />
+        <label>نام خانوادگی</label>
+        <input type="text" />
+        <label>ایمیل</label>
+        <input type="email" />
+        <button class="btn">مرحله بعد &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
